@@ -17,7 +17,7 @@ class Circle:public Shape
 public:
 	
 	/// @brief This is the default constructor of Circle class
-	/// @param diameter 
+	/// @param diameter:int
 	Circle(int diameter);
 
 	/// @brief This is print() function

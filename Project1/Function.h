@@ -16,17 +16,17 @@
 /// @brief This is draw() function
 /// 
 /// This will call print function in Shape class, this is polymorphism function
-/// @param shape 
+/// @param Shape class 
 void draw(Shape& shape);
 
 /// @brief This is draw() function
 /// 
 /// This will call print function in Car class, this is polymorphism function
-/// @param car
+/// @param Car class
 void draw(Car& car);
 
 /// @brief This is drive() function
 /// 
 /// This will call drive function in Car class, this is polymorphism function
-/// @param car 
+/// @param Car class
 void drive(Car& car);

@@ -18,7 +18,8 @@ class Rectangle:public Shape
 public:
 
 	/// @brief This is the default constructor of Rectangle class
-	/// @param lenght and width
+	/// @param lenght:int
+	/// @param width:int
 	Rectangle(int length, int width);
 	/// @brief This is print() function
 	///

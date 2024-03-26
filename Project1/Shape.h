@@ -13,9 +13,10 @@
 class Shape
 {
 public:
-	// @brief This is print() function
+	/// @brief This is print() function
 	///
-	/// This virtual function will help in printing shapes, this is an overiding function
+	/// This will draw a shape (circle or rectangle, depending on which class calls this function), this is an overiding function
+	/// @returns This function returns void
 	virtual void print();
 };
 
