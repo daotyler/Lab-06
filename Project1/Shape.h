@@ -9,14 +9,13 @@
 #pragma once
 /// @brief This is Shape class
 ///
-/// This is a derived class of Car
+/// This is a Base class for rectangle and circle 
 class Shape
 {
 public:
-	/// @brief This is getArea() function
-	/// 
-	/// This function will calculate the area of the circle, this is an overiding function
-	/// @return an int variable which is the area of the circle
+	// @brief This is print() function
+	///
+	/// This virtual function will help in printing shapes, this is an overiding function
 	virtual void print();
 };
 

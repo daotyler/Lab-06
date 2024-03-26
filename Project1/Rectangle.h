@@ -10,7 +10,7 @@
 
 /// @brief This is Rectangle class
 ///
-/// This is a derived class of Car
+/// This is a derived class of Shape
 class Rectangle:public Shape
 {
 	int length;
@@ -22,12 +22,12 @@ public:
 	Rectangle(int length, int width);
 	/// @brief This is print() function
 	///
-	/// This will print a circle, this is an overiding function
+	/// This will print a Rectangle, this is an overiding function
 	void print();
 	/// @brief This is getArea() function
 	/// 
-	/// This function will calculate the area of the circle, this is an overiding function
-	/// @return an int variable which is the area of the circle
+	/// This function will calculate the area of the rectangle, this is an overiding function
+	/// @return an int variable which is the area of the rectangle
 	int getArea();
 };
 
