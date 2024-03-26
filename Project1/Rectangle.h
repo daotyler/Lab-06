@@ -7,13 +7,27 @@
 /// @date 3/23
 #pragma once
 #include "Shape.h"
+
+/// @brief This is Rectangle class
+///
+/// This is a derived class of Car
 class Rectangle:public Shape
 {
 	int length;
 	int width;
 public:
+
+	/// @brief This is the default constructor of Rectangle class
+	/// @param lenght and width
 	Rectangle(int length, int width);
+	/// @brief This is print() function
+	///
+	/// This will print a circle, this is an overiding function
 	void print();
+	/// @brief This is getArea() function
+	/// 
+	/// This function will calculate the area of the circle, this is an overiding function
+	/// @return an int variable which is the area of the circle
 	int getArea();
 };
 
